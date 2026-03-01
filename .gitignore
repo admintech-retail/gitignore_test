@@ -1,0 +1,82 @@
+# Environment
+.env
+.env.*
+my.env
+*.env
+*.env.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+instance/
+
+# Virtual environment
+venv/
+env/
+
+# Certificates - Keys
+
+*.pem
+*.key
+*.crt
+*.csr
+*.p12
+*.pfx
+*.jks
+*.der
+
+# Secrets
+*.pem
+*.key
+secrets.*
+*.crt
+*.p12
+*id_rsa*
+*id_dsa*
+
+id_ecdsa
+*.pub
+
+
+#some developers accidentally create files like
+config.json
+secrets.json
+settings_local.py
+*secret*
+settings_local.py
+
+secrets.json
+config.json
+credentials.json
+service-account.json
+firebase.json
+
+*secret*.json
+*credential*.json
+
+# Database Dumps
+
+*.sql
+*.dump
+*.bak
+*.db
+*.sqlite
+
+# AWS
+.aws/
+
+aws_credentials
+aws_config
+
+# Logs
+
+*.log
+logs/
+
+# Docker Secrets
+
+docker-compose.override.yml
+.env.docker
+
+###### END OF FILE ####
